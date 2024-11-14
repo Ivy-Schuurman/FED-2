@@ -57,6 +57,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Bij het gebruiken van de screen reader van Windows ging het helemaal fout. De screen reader kon alleen het menu opnoemen en de andere
+  delen van de pagina's werden niet meegenomen. De site heeft wel een eigen screen reader die de gebruiker kan instellen. 
+
+  Hier de foto's van de WCAG checklist (eerste test):
+  <img src="readme-images/pagina_1.jpg>" alt="Eerste pagina van de WCAG checklist"> 
+  <img src="readme-images/pagina_2.jpg>" alt="Tweede pagina van de WCAG checklist"> 
+  <img src="readme-images/pagina_3.jpg>" alt="Derde pagina van de WCAG checklist"> 
+  <img src="readme-images/pagina_4.jpg>" alt="Vierde pagina van de WCAG checklist"> 
+  <img src="readme-images/pagina_5.jpg>" alt="Vijfde pagina van de WCAG checklist"> 
 
 </details>
 
