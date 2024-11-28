@@ -132,17 +132,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De CSS gaat een beetje langzaam, langzamer dan ik zou willen in iedergeval. Het is niet altijd even makkelijk voor mij om uit te vogelen welke properies ik 
+  moet gebruiken en bij welk element ik deze dan moet toepassen. Het lukt mij wel, maar ik heb ook zeker heel wat stukken waar ik toch vast loop.
+  (foto's volgen nog)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1      | student 2          | student 3       | student 4         |
+  | ---            | ---                | ---             | ---               |
+  | Hoe maak ik de | hoe haal ik de     | ik heb hulp     | ik heb hulp nodig |
+  | buttons in de  | witte strepen op   | nodig bij het   | bij het maken van |
+  | footer na?     | website weg?       | maken van       | header (menu)     |  
+  |                |                    | buttons         |                   |
+  | ...            | ...                | ...             | ...               |
 
 
   ### Verslag van meeting

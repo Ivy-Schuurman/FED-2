@@ -27,5 +27,139 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+/* OVERALL */
+/***********/
 
+* {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+img {
+	max-width: 390px;
+}
+
+video {
+	max-width: 390px;
+}
+
+/* HEADER */
+/**********/
+
+header {
+	background-color: #111;
+}
+
+h1 {
+	color: #fff;
+}
+
+/* BODY */
+/********/
+
+
+
+/* FOOTER */
+/**********/
+
+footer section {
+	background-color: #303030;
+	color: #fff; 
+	display: flex; 
+	flex-direction: column;
+	padding: 2em 1em;
+}
+
+footer section h2 {
+	align-self: center;
+	padding: 1em;
+}
+
+footer section p {
+	align-self: center;
+	text-align: center;
+	padding: .5em;
+}
+
+footer section button {
+	align-self: stretch;
+	padding: 1.5em;
+	background-color: #DC3326; 
+	color: #FFFFFF;
+	border: none; 
+	margin: 1em 1em 1.5em 1em;
+}
+
+footer div:nth-of-type(1) {
+	background-color: #181818;
+	color: #FFFFFF;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+footer div:nth-of-type(1) button {
+	background-color: #181818;
+	color: #FFFFFF; 
+	border: none;
+	margin: 1em;
+	text-align: start;
+}
+
+footer div:nth-of-type(2) {
+	background-color: #181818;
+	color: #FFFFFF;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+footer div:nth-of-type(2) button {
+	background-color: #181818;
+	color: #FFFFFF; 
+	border: none;
+	margin: 1em;
+	text-align: start;
+}
+
+footer div:nth-of-type(2) img {
+	max-width: 16px;
+	max-height: 16px;
+}
+
+footer div:nth-of-type(3) { /*hoe zorg ik ervoor dat de img en buttons naast elkaar staan*/
+	background-color: #181818;
+	color: #686868; 
+	text-align: center;
+	font-size:7px;
+	padding: 4em;
+}
+
+footer div:nth-of-type(3) p {
+	padding: 1em;
+}
+
+footer div:nth-of-type(4) { /* Hoe maak ik de rest van deze div nu verder? (met de nav erin)*/
+	background-color: #303030;
+	padding: 1em;
+}
+
+footer div:nth-of-type(5) {
+	background-color: #181818;
+	display: flex;
+	justify-content: center;
+	padding: .5em;
+}
+
+footer div:nth-of-type(5) img {
+	max-height: 28px;
+	margin: 0 10px;
+}
