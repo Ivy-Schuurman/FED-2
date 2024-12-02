@@ -99,26 +99,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het maken van de HTML van mijn website ging snel en makkelijk. Wel heb ik voor nu nog wat dingen weggelaten. Bijvoorbeeld de fotos van de gallerijen, 
+  omdat ik nog niet weet of dit mijn micro interactie gaat worden en ik niet meer dan 40 fotos op één pagina wil waar ik dan niks mee doe. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  |                |                    |                   |                  |
+  | ---            | ---                | ---               | ---              |
+  | Hoe geef je een| Wat doe ik met de  | Hoe maak ik het   |                  |
+  | hamburger menu/| video delen van    | pop-up menu van   |                  |
+  | gallerij/      | mijn website?      | de detail pagina? |                  |
+  | carousel weer  |                    | detail pagina? Hoe|                  | 
+  | in HTML?       |                    | zet ik dit in de  |                  |
+  |                |                    | HTML?             |                  |
+  | ...            | ...                | ...               | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Maak gebruik van articles voor carousels
+  - Detail element kan gebruikt worden voor het uitklappen van de footer -> is alleen niet geweldig voor vormgeving
+  - Focus eerst op basis pagina voor HTML en CSS -> kijk daarna naar het klikbaar maken van buttons, etc. 
+  - Snap je iets niet? probeer het dan gewoon en kijk bij het volgende feedback moment hoe het verbeterd kan worden
 
 </details>
 
@@ -140,11 +145,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3       | student 4         |
+  |                |                    |                 |                   |
   | ---            | ---                | ---             | ---               |
-  | Hoe maak ik de | hoe haal ik de     | ik heb hulp     | ik heb hulp nodig |
+  | Hoe maak ik de | Hoe haal ik de     | Ik heb hulp     | Ik heb hulp nodig |
   | buttons in de  | witte strepen op   | nodig bij het   | bij het maken van |
-  | footer na?     | website weg?       | maken van       | header (menu)     |  
+  | footer na?     | website weg?       | maken van       | de header (menu)  |  
   |                |                    | buttons         |                   |
   | ...            | ...                | ...             | ...               |
 
@@ -152,10 +157,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Voeg nog je bevindingen toe van de toegankelijkheids test
+  - Voor de buttons in de footer kijk of je gebruik kan maken van <details>, <before> en <after>
+    -> <before> voor de icons
+    -> <after> voor het plusje
+  - Voor de nav in de footer kan je flex en flex-wrap gebruiken
+  - Voor het weghalen van de witte strepen moet je de background-color van de gehele pagina aanpassen
+  - Img folder moet ik nog updaten op github, want je ziet nu niet de namen van de afbeeldingen
 
 </details>
 
