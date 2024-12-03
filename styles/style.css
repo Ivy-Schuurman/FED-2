@@ -32,7 +32,13 @@
 
 * {
 	margin: 0;
+	color: #FFFFFF;
 }
+
+body {
+	background-color: #181818;
+}
+
 
 a {
 	text-decoration: none;
@@ -55,24 +61,349 @@ video {
 /**********/
 
 header {
-	background-color: #111;
+	background-color: #181818;
+	position: sticky;
+	top: 0;
+	height: 2.5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .5em;
+}
+
+header nav {
+	order: 1;
+}
+
+header a {
+	order: 3;
 }
 
 h1 {
 	color: #fff;
+	order: 2;
 }
 
 /* BODY */
 /********/
 
+/*HOME PAGINA*/ 
+
+
+/*tweede section*/
+.home section:nth-of-type(2) {
+	background-color: #FFFFFF;
+}
+
+.home section:nth-of-type(2) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.5em 1.5em 4em;
+}
+
+.home section:nth-of-type(2) img {
+	order: 1;
+	padding: 1.5em 1.5em 1em;
+}
+
+.home section:nth-of-type(2) h2 {
+	order: 2;
+	align-self: flex-start;
+	color: #111;
+}
+
+.home section:nth-of-type(2) p {
+	order: 3;
+	align-self: flex-start;
+	padding: .5em 0 1.5em 0;
+	color: #111;
+}
+
+.home section:nth-of-type(2) a {
+	order: 4;
+	align-self: flex-start;
+	color: #111;
+}
+
+.home section:nth-of-type(2) article:nth-of-type(4) {
+	display: flex;
+	flex-direction: row;
+
+}
+
+/*derde setion*/
+.home section:nth-of-type(3) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+} 
+
+.home section:nth-of-type(3) img {
+	width: 100%;
+}
+
+/*vierde section*/
+.home section:nth-of-type(4) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+} 
+
+.home section:nth-of-type(4) img {
+	width: 100%;
+}
+
+/*vijfde section*/
+.home section:nth-of-type(5) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+} 
+
+.home section:nth-of-type(5) img {
+	width: 100%;
+}
+
+/*zesde section*/
+.home section:nth-of-type(6) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+} 
+
+.home section:nth-of-type(6) img {
+	width: 100%;
+}
+
+/*zevende section*/
+.home section:nth-of-type(7) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+} 
+
+.home section:nth-of-type(7) img {
+	width: 100%;
+}
+
+/*achtste section*/
+.home section:nth-of-type(8) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+} 
+
+.home section:nth-of-type(8) img {
+	width: 100%;
+}
+
+
+/* DETAIL PAGINA*/ 
+.detail {
+	background-color: #000000;
+}
+
+/*eerste div*/
+.detail div:nth-of-type(1) {
+	display: flex;
+	text-align: center;
+	padding: 4em 0;
+	margin: 1em;
+}
+
+/*derde section*/
+.detail section:nth-of-type(3) {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.detail section:nth-of-type(3) h2 {
+	color: #DA291C;
+	margin: 1em;
+}
+
+.detail section:nth-of-type(3) button {
+	align-self: stretch;
+	text-align: start;
+	border: none;
+	padding: 2em 4em;
+	margin: 0 1em;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/*vierde section*/
+.detail section:nth-of-type(4) h2 {
+	color: #DA291C;
+	margin: 1em;
+}
+
+.detail section:nth-of-type(4) img {
+	padding: 1em;
+}
+
+.detail section:nth-of-type(4) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+	padding: 1em;
+}
+
+.detail section:nth-of-type(4) button {
+	border: none;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/*vijde section*/
+.detail section:nth-of-type(5) h2 {
+	color: #DA291C;
+	margin: 1em;
+}
+
+.detail section:nth-of-type(5) img {
+	padding: 1em;
+}
+
+.detail section:nth-of-type(5) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+	padding: 1em;
+}
+
+.detail section:nth-of-type(5) button {
+	border: none;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/*zesde section*/
+.detail section:nth-of-type(6) h2 {
+	color: #DA291C;
+	margin: 1em;
+}
+
+.detail section:nth-of-type(6) img {
+	padding: 1em;
+}
+
+.detail section:nth-of-type(6) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+	padding: 1em;
+}
+
+.detail section:nth-of-type(6) button {
+	border: none;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/*zevende section*/
+.detail section:nth-of-type(7) h2 {
+	color: #DA291C;
+	margin: 1em;
+}
+
+.detail section:nth-of-type(7) img {
+	padding: 1em;
+}
+
+.detail section:nth-of-type(7) article { /*HULP NODIG HIERBIJ*/
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+}
+
+/*achtste section*/
+.detail section:nth-of-type(8) {
+	background-color: #303030;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1em;
+}
+
+.detail section:nth-of-type(8) button {
+	align-content: center;
+	margin: 1em 0;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: none;
+}
+
+.detail section:nth-of-type(8) div {
+	justify-content: flex-start;
+	padding: 0;
+}
+
+.detail section:nth-of-type(8) div button {
+	margin: 0 1em;
+}
+
+/*tweede div*/
+.detail div:nth-of-type(2) {
+	display: flex;
+	text-align: center;
+	padding: 4em 0;
+	margin: 1em;
+}
+
+/*negende section*/
+.detail section:nth-of-type(9) h2 {
+	color: #DA291C;
+	margin: 1em;
+}
+
+.detail section:nth-of-type(9) h3 {
+	color: #DA291C;
+	margin: 1em;
+	text-align: center;
+}
+
+.detail section:nth-of-type(9) img {
+	padding: 1em;
+}
+
+.detail section:nth-of-type(9) p {
+	position: absolute;
+}
+
+.detail section:nth-of-type(9) button {
+	margin: 1em 0;
+}
+
+/*tiende section*/
+.detail section:nth-of-type(10) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+}
+
+/*elfde section*/
+.detail section:nth-of-type(11) article {
+	margin: 1em;
+	position: absolute;
+	left: 1em;
+}
 
 
 /* FOOTER */
 /**********/
 
+footer {
+	background-color: #181818;
+	color: #FFFFFF;
+}
+
 footer section {
 	background-color: #303030;
-	color: #fff; 
 	display: flex; 
 	flex-direction: column;
 	padding: 2em 1em;
@@ -93,14 +424,11 @@ footer section button {
 	align-self: stretch;
 	padding: 1.5em;
 	background-color: #DC3326; 
-	color: #FFFFFF;
 	border: none; 
 	margin: 1em 1em 1.5em 1em;
 }
 
 footer div:nth-of-type(1) {
-	background-color: #181818;
-	color: #FFFFFF;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
@@ -108,38 +436,33 @@ footer div:nth-of-type(1) {
 
 footer div:nth-of-type(1) button {
 	background-color: #181818;
-	color: #FFFFFF; 
 	border: none;
 	margin: 1em;
 	text-align: start;
 }
 
 footer div:nth-of-type(2) {
-	background-color: #181818;
-	color: #FFFFFF;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
 }
 
 footer div:nth-of-type(2) button {
-	background-color: #181818;
-	color: #FFFFFF; 
+	background-color: #181818; 
 	border: none;
 	margin: 1em;
 	text-align: start;
 }
 
 footer div:nth-of-type(2) img {
-	max-width: 16px;
-	max-height: 16px;
+	max-width: 1em;
+	max-height: 1em;
 }
 
-footer div:nth-of-type(3) { /*hoe zorg ik ervoor dat de img en buttons naast elkaar staan*/
-	background-color: #181818;
+footer div:nth-of-type(3) { 
 	color: #686868; 
 	text-align: center;
-	font-size:7px;
+	font-size: .4em;
 	padding: 4em;
 }
 
@@ -147,19 +470,36 @@ footer div:nth-of-type(3) p {
 	padding: 1em;
 }
 
-footer div:nth-of-type(4) { /* Hoe maak ik de rest van deze div nu verder? (met de nav erin)*/
+footer div:nth-of-type(4) { 
 	background-color: #303030;
 	padding: 1em;
 }
 
+footer div:nth-of-type(4) a {
+	display: flex;
+	justify-content: center;
+}
+
+footer div:nth-of-type(4) nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1em;
+}
+
+footer div:nth-of-type(4) nav li {
+	padding: 1em;
+	text-align: center;
+}
+
 footer div:nth-of-type(5) {
-	background-color: #181818;
 	display: flex;
 	justify-content: center;
 	padding: .5em;
 }
 
 footer div:nth-of-type(5) img {
-	max-height: 28px;
-	margin: 0 10px;
+	max-height: 1.75em;
+	margin: 0 .6em;
 }

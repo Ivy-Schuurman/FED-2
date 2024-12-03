@@ -163,7 +163,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     -> <after> voor het plusje
   - Voor de nav in de footer kan je flex en flex-wrap gebruiken
   - Voor het weghalen van de witte strepen moet je de background-color van de gehele pagina aanpassen
-  - Img folder moet ik nog updaten op github, want je ziet nu niet de namen van de afbeeldingen
+  - Img folder moet nog geupdate worden op github, want je ziet nu niet de namen van de afbeeldingen
 
 </details>
 
