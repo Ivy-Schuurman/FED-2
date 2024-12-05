@@ -157,7 +157,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Voeg nog je bevindingen toe van de toegankelijkheids test
   - Voor de buttons in de footer kijk of je gebruik kan maken van <details>, <before> en <after>
     -> <before> voor de icons
     -> <after> voor het plusje

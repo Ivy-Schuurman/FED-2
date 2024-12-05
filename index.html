@@ -9,6 +9,9 @@
 	<title>Ferrari</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<!-- <link rel="icon" type="image/svg+xml" href="images/favicon.svg"> --> 
 </head>
 
@@ -29,24 +32,12 @@
 			<article>
 				<h2>Sports Cars</h2>
 				<p>Start your engine</p>
-				<a href="">Discover the Ferrari line up</a> <!--dit is en link naar een nieuw pagina-->
+				<a href="">Discover the Ferrari line up</a>
 				<video controls width="Maximum">
 					<source src="videos/video_carousel_1.mp4" type="video/mp4"/>
 				</video>
 			</article>
 
-			<article>
-				<h2>Racing</h2>
-				<p>Scuderia Ferrari</p>
-				<a href="">Discover</a>	<!--dit is en link naar een nieuw pagina-->
-			</article>
-			
-			<article>
-				<h2>Collections</h2>
-				<p>Holiday season</p>
-				<a href="">Discover Ferrari gifts</a> <!--dit is en link naar een nieuw pagina-->
-			</article>	
-			
 			<article>
 				<button>next</button>
 				<button>next</button>
@@ -54,7 +45,7 @@
 			</article>
 		</section>
 
-		<section> <!--deze section is ook een carousel-->
+		<section> 
 			<article>
 				<h2>The final rush starts in Las Vegas</h2>
 				<img src="images/carousel_image_1.jpg" alt="Eerste afbeelding in de carousel">
@@ -84,59 +75,59 @@
 			</article>
 		</section>
 
-		<section>
-			<article>
+		<article>
+			<div>
 				<h2>Collections</h2>
 				<p>Gift guide Ferrari</p>
 				<a href="">Explore</a>
-			</article>
+			</div>
 			<img src="images/popup_home_1.jpg" alt="Afbeelding collections">
-		</section>
+		</article>
 		
-		<section>
-			<article> 
+		<article>
+			<div> 
 				<h2>Ferrari Museums</h2>
 				<p>Live your dream</p>
 				<a href="">Discover more</a>
-			</article>
+			</div>
 			<img src="images/popup_home_2.jpg" alt="Afbeelding museums">
-		</section>
+		</article>
 			
-		<section>
-			<article>
+		<article>
+			<div>
 				<h2>Sports Cars</h2>
 				<p>Ferrari F80</p>
 				<a href="">Discover more</a>
-			</article>
+			</div>
 			<img src="images/popup_home_3.jpg" alt="Afbeelding sports cars">
-		</section>	
+		</article>	
 			
-		<section>
-			<article>
+		<article>
+			<div>
 				<h2>Magazine</h2>
 				<p>Celebrating the GTO</p>
 				<a href="">Discover more</a>
-			</article>
+			</div>
 			<img src="images/popup_home_4.jpg" alt="Afbeelding magazine">	
-		</section>	
+		</article>	
 			
-		<section>
-			<article>
+		<article>
+			<div>
 				<h2>Ferrari Approved</h2>
 				<p>Pre-owned</p>
 				<a href="">Discover more</a>
-			</article>
+			</div>
 			<img src="images/popup_home_5.jpg" alt="Afbeelding Ferrari approved">
-		</section>	
+		</article>	
 			
-		<section>	
-			<article>
+		<article>	
+			<div>
 				<h2>Sports Cars</h2>
 				<p>Past models</p>
 				<a href="">Discover more</a>
-			</article>
+			</div>
 			<img src="images/popup_home_6.jpg" alt="Afbeelding sports cars">
-		</section>
+		</article>
 	</main>
 
 	<footer>
@@ -166,6 +157,10 @@
 
 			<!--heb nog geen afbeelding van het tik tok icoon-->
 			<button>Tik Tok</button>
+			<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M8.57095 0.333313C9.51319 0.333313 10.4554 0.333313 11.3922 0.333313C11.4222 1.45925 11.8722 2.53325 12.654 3.34413C13.4986 4.1158 14.578 4.58115 15.7189 4.66543V7.57336C14.6684 7.53331 13.6368 7.28095 12.6865 6.83149C12.2807 6.63656 11.8897 6.41213 11.5168 6.16001C11.5168 8.2665 11.5168 10.373 11.5168 12.4741C11.463 13.4957 11.1255 14.4821 10.5421 15.3224C10.0629 16.0223 9.42512 16.5989 8.68075 17.0055C7.93638 17.412 7.10647 17.6369 6.25868 17.6618C5.22478 17.7061 4.20057 17.4463 3.31284 16.9145C2.58102 16.4816 1.96142 15.8825 1.5042 15.1656C1.04699 14.4487 0.765003 13.6343 0.681084 12.7881C0.661807 12.4274 0.661807 12.0659 0.681084 11.7051C0.752485 10.965 0.975561 10.2474 1.33641 9.59726C1.69726 8.94708 2.18815 8.3782 2.77848 7.92604C3.36882 7.47389 4.04595 7.14817 4.76768 6.96917C5.48942 6.79018 6.24028 6.76174 6.97348 6.88564C6.97348 7.96867 6.97348 9.0517 6.97348 10.0968C6.66492 9.98831 6.33795 9.94191 6.01138 9.96029C5.68482 9.97867 5.36511 10.0615 5.07067 10.2039C4.77623 10.3463 4.51288 10.5456 4.29577 10.7902C4.07866 11.0349 3.91208 11.32 3.80562 11.6293C3.68791 12.0036 3.64558 12.3974 3.68107 12.7881C3.77376 13.3843 4.08291 13.9255 4.54944 14.3081C5.01597 14.6907 5.60714 14.888 6.20995 14.8621C6.60977 14.8457 6.99936 14.7309 7.34414 14.5278C7.68893 14.3247 7.97827 14.0396 8.18648 13.6979C8.34575 13.4711 8.44793 13.2091 8.48431 12.9344C8.5547 11.6401 8.52763 10.3567 8.53304 9.06253C8.53304 6.15459 8.53304 3.25208 8.53304 0.349558L8.57095 0.333313Z" fill="white"/>
+				</svg>
+				
 
 			<!--heb nog geen afbeelding van het twitch icoon-->
 			<button>Twitch</button>
