@@ -177,6 +177,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  De screen reader doet het veel beter. Hij gaat nu echt door de site heen in plaats van dat hij alleen blijft hangen bij de header van de pagina.
+  Wel werkt de screen reader niet heel soepel, maar dit komt denk ik vooral door mijn onervarenheid met het gebruiken van een screen reader.
+
+  Hier de foto's van de WCAG checklist (tweede test):
+  <img src="readme-images/test_2_pagina_1.jpg>" alt="Eerste pagina van de WCAG checklist"> 
+  <img src="readme-images/test_2_pagina_2.jpg>" alt="Tweede pagina van de WCAG checklist"> 
+  <img src="readme-images/test_2_pagina_3.jpg>" alt="Derde pagina van de WCAG checklist"> 
+  <img src="readme-images/test_2_pagina_4.jpg>" alt="Vierde pagina van de WCAG checklist"> 
+  <img src="readme-images/test_2_pagina_5.jpg>" alt="Vijfde pagina van de WCAG checklist"> 
 
 </details>
 
