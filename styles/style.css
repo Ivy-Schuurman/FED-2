@@ -97,16 +97,48 @@ header {
 }
 
 header nav {
-	order: 1;
+	order: 0;
+}
+
+header nav ul {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	bottom: 0;
+	translate: -100% 0%;
+	transition: translate 0.3s ease-in-out;
+	background-color: var(--color-background-1);
+	color: var(--color-text-1);
+	padding: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav.showMenu ul {
+	translate: 0% 0%;
+}
+
+header nav button {
+	display: flex;
+	align-items: center;
+	gap: .5em;
+	background-color: var(--color-background-1);
+	color: var(--color-text-1);
+	border: none;
+	position: relative; 
+	z-index: 2;
 }
 
 header a {
-	order: 3;
+	order: 2;
 	color: var(--color-text-1);
 }
 
 h1 {
-	order: 2;
+	order: 1;
 }
 
 /* BODY */
@@ -114,7 +146,7 @@ h1 {
 
 /*HOME PAGINA*/ 
 
-/*eerste sectio: Video*/
+/*Section 1: Video*/
 .home section:nth-of-type(1) h2 {
 	font-size: 1em;
 }
@@ -159,7 +191,7 @@ h1 {
 	background-color: transparent;
 }
 
-/*tweede section: Carousel*/
+/*Section 2: Nep carousel*/
 .home section:nth-of-type(2) {
 	background-color: #FFFFFF;
 }
@@ -171,7 +203,7 @@ h1 {
 .home section:nth-of-type(2) h2 {
 	order: 2;
 	align-self: flex-start;
-	color: #111;
+	color: #000000;
 	font-size: 1.6em;
 	padding: .5em 0 0 0;
 }
@@ -180,7 +212,7 @@ h1 {
 	order: 3;
 	align-self: flex-start;
 	padding: .5em 0 1.5em 0;
-	color: #111;
+	color: #000000;
 }
 
 .home section:nth-of-type(2) a {
@@ -193,7 +225,7 @@ h1 {
 	order: 5;
 }
 
-/*/*Carousel: eerste article*/
+/*/*Section 2: nep carousel, article*/
 .home section:nth-of-type(2) > article:nth-of-type(1) {
 	display: flex;
 	flex-direction: column;
@@ -207,17 +239,13 @@ h1 {
 	gap: 1em;
 }
 
-/*/*Carousel: vierde article*/
+/*Section 2: tweede article, buttons carousel*/
 .home section:nth-of-type(2) > article:nth-of-type(2) { 
-	display: flex;
-	justify-content: space-between;
-	padding: 1.5em 1.5em 4em;
-}
-
-.home section:nth-of-type(2) > article:nth-of-type(4) {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding: 1.5em 1.5em 1.5em;
+	background-color: #FFFFFF;
 }
 
 .home section:nth-of-type(2) ul {
@@ -226,7 +254,7 @@ h1 {
 	gap: .5em;
 }
 
-.home section:nth-of-type(2) ul button {
+.home section:nth-of-type(2) > article:nth-of-type(2) ul button {
 	padding: .3em;
 	border-radius: 30px;
 	border-color: #000000;
@@ -237,7 +265,11 @@ h1 {
 	list-style-type: none;
 }
 
-/*eerste article: Gift Guide Ferrari*/
+.home section:nth-of-type(2) a {
+	color: #000000;
+}
+
+/*Article 1: Gift Guide Ferrari*/
 .home article:nth-of-type(1) {
 	position: relative;
 }
@@ -266,7 +298,7 @@ h1 {
 }
 
 
-/*tweede article: Live your dream*/
+/*Article 2: Live your dream*/
 .home article:nth-of-type(2) {
 	position: relative;
 }
@@ -290,7 +322,7 @@ h1 {
 	font-weight: bold;
 }
 
-/*derde article: Ferrari F80*/
+/*Article 3: Ferrari F80*/
 .home article:nth-of-type(3) {
 	position: relative;
 }
@@ -314,7 +346,7 @@ h1 {
 	font-weight: bold;
 }
 
-/*vierde article: Celebrate the GTO*/
+/*Article 4: Celebrate the GTO*/
 .home article:nth-of-type(4) {
 	position: relative;
 }
@@ -339,7 +371,7 @@ h1 {
 	font-weight: bold;
 }
 
-/*vijfde article: Pre-owned*/
+/*Article 5: Pre-owned*/
 .home article:nth-of-type(5) {
 	position: relative;
 }
@@ -363,7 +395,7 @@ h1 {
 	font-weight: bold;
 }
 
-/*zesde article: Past models*/
+/*Article 6: Past models*/
 .home article:nth-of-type(6) {
 	position: relative;
 }
@@ -387,6 +419,35 @@ h1 {
 	font-weight: bold;
 }
 
+/*.home .scroll {
+	position: absolute;
+	top: 50%;
+	left: -100%;
+	transform: translateY(-50%);
+	animation-name: slide-in;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+@keyframes slide-in {
+	0% {
+		left: -100%;
+	}
+	100% {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+:root:has(.scroll:hover) .scroll {
+	animation-play-state: running;
+}*/
+
+/*.home .scroll:hover {
+	animation-play-state: running;
+}*/
 
 /* DETAIL PAGINA*/ 
 .detail {
@@ -407,7 +468,7 @@ h1 {
 	background: #DA291C;
 }
 
-/*eerste blockquote*/
+/*Blockquote 1*/
 .detail blockquote:nth-of-type(1) {
 	display: flex;
 	text-align: center;
@@ -416,7 +477,7 @@ h1 {
 	font-size: 1.1em;
 }
 
-/*derde section: History*/
+/*Section 3: History*/
 .detail section:nth-of-type(3) {
 	display: flex;
 	flex-wrap: wrap;
@@ -443,7 +504,7 @@ h1 {
 	align-items: center;
 }
 
-/*vierde section: Perfomance*/
+/*Section 4: Perfomance*/
 .detail section:nth-of-type(4) h2 {
 	color: #DA291C;
 	margin: 1em;
@@ -480,7 +541,7 @@ h1 {
 	text-align: center;
 }
 
-/*vijde section: Design*/
+/*Section 5: Design*/
 .detail section:nth-of-type(5) h2 {
 	color: #DA291C;
 	margin: 1em;
@@ -517,7 +578,7 @@ h1 {
 	text-align: center;
 }
 
-/*zesde section: Technology*/
+/*Section 6: Technology*/
 .detail section:nth-of-type(6) h2 {
 	color: #DA291C;
 	margin: 1em;
@@ -554,7 +615,7 @@ h1 {
 	text-align: center;
 }
 
-/*zevende section: Technical details*/
+/*Section 7: Technical details*/
 .detail section:nth-of-type(7) h2 {
 	color: #DA291C;
 	margin: 1em;
@@ -576,7 +637,7 @@ h1 {
 	font-size: 2em;
 }
 
-/*achtste section: Hamburger menu*/
+/*Section 8: Hamburger menu*/
 .detail section:nth-of-type(8) {
 	background-color: #303030;
 	display: flex;
@@ -619,7 +680,7 @@ h1 {
 	font-weight: bold;
 }
 
-/*tweede blockqoute*/
+/*Blockqoute 2*/
 .detail blockquote:nth-of-type(2) {
 	display: flex;
 	text-align: center;
@@ -628,7 +689,7 @@ h1 {
 	font-size: 1.1em;
 }
 
-/*negende section: Media gallery*/
+/*Section 9: Media gallery*/
 .detail section:nth-of-type(9) h2 {
 	color: #DA291C;
 	margin: 1em;
@@ -656,6 +717,7 @@ h1 {
 	background-color: #000000;
 	border-radius: 30px;
 	padding: .5em;
+	margin: 0 0 .5em 0;
 }
 
 .detail section:nth-of-type(9) ul {
@@ -668,7 +730,25 @@ h1 {
 	list-style-type: none;
 }
 
-/*eerste article: Ferrari GTO*/
+/*/*Section 9: animatie*/
+@keyframes gallery-animatie {
+	0% {
+		transform: scale(.5);
+	}
+	100% {
+		transform: scale(1);
+		background-color: #FFFFFF;
+	}
+}
+
+li[aria-label="animatie gallerij"]:hover button {
+	animation-name: gallery-animatie;
+	animation-duration: .5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+/*Article 1: Ferrari GTO*/
 .detail article:nth-of-type(1) {
 	position: relative;
 }
@@ -693,7 +773,7 @@ h1 {
 	width: 100%;
 }
 
-/*tweede article: Ferrari F50*/
+/*Article 2: Ferrari F50*/
 .detail article:nth-of-type(2) {
 	position: relative;
 }
@@ -754,7 +834,7 @@ footer section button {
 	color: #FFFFFF;
 }
 
-/*eerste div: Hamburger menu 1*/
+/*Div 1: Hamburger menu 1*/
 footer > div:nth-of-type(1) {
 	padding: 1em;
 	display: flex;
@@ -771,7 +851,7 @@ footer div:nth-of-type(1) button {
 	justify-content: space-between;
 }
 
-/*tweede div: Hamburger menu 2*/
+/*Div 2: Hamburger menu 2*/
 footer > div:nth-of-type(2) {
 	padding: 1em;
 	display: flex;
@@ -794,7 +874,7 @@ footer div:nth-of-type(2) button div {
 	align-items: center;
 }
 
-/*derde div: Paraghaphs*/
+/*Div 3: Paraghaphs*/
 footer div:nth-of-type(3) { 
 	color: var(--color-text-3); 
 	background-color: var(--color-background-1);
@@ -807,7 +887,7 @@ footer div:nth-of-type(3) p {
 	padding: 1em;
 }
 
-/*vierde div: Ul list*/
+/*Div 4: Ul list*/
 footer div:nth-of-type(4) { 
 	background-color: #303030;
 	padding: 1em;
@@ -833,7 +913,7 @@ footer div:nth-of-type(4) nav li {
 	font-size: .6em;
 }
 
-/*vijfde div: afbeelding*/
+/*Div 5: afbeelding*/
 footer div:nth-of-type(5) {
 	display: flex;
 	justify-content: center;
